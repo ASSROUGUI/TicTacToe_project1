@@ -13,12 +13,17 @@ let turns=document.querySelector('h1');//shows who's turn next
 
 function sound(){  //for sounds in the game
   var audio = new Audio();
-  audio.src ="sound.mp3";
+  audio.src ="sound2.mp4";
   audio.play();
 
 }
 
+function clapSound(){  //for sounds in the game
+  var audio = new Audio();
+  audio.src ="sound1.mp4";
+  audio.play();
 
+}
 let switchX_O=function(plyerNo1,plyerNo2){ //swich game between X,O players
     if(this.innerHTML!==player_1  && this.innerHTML !== player_2){
         if (countCell%2==0){ //to start with 1st player
@@ -72,7 +77,7 @@ function wins(winner,a,b,c){//function wins if someone wins
   tables[a].classList += (" animated flipOutY infinite");
   tables[b].classList += (" animated flipOutY infinite");
   tables[c].classList += (" animated flipOutY infinite");
-  // refreshtGame();
+  clapSound(); // refreshtGame();
 }
 
 function refreshtGame(){

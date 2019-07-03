@@ -50,7 +50,7 @@ button{
   margin-top: 355px;
 }
 
-.X{
+.O{
   display: inline-block;
   /* text-align: center; */
   /* align-items: flex-start; */
@@ -72,6 +72,6 @@ body{
   background: #333;
 }
 .up{
-  margin-bottom: -335px;
+  margin-bottom: 35px;
 
 }
