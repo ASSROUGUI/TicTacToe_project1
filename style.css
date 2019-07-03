@@ -14,7 +14,7 @@ cursor: pointer;
 table{
 border-collapse: collapse;
 position: absolute;
-left: 50%;
+left: 40%;
 margin-left: -15px;
 top:150px;
 margin-top: 55px;
@@ -29,9 +29,7 @@ margin-left:70px;
 color: white;
 }
 
-button{
 
-}
 .btnOne{
 
   display: inline-block;
@@ -46,8 +44,8 @@ button{
   border-width: 5px;
   border-style: solid;
   border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
-  margin-left: 355px;
-  margin-top: 355px;
+  margin-left: 75px;
+  margin-top: 55px;
 }
 
 .O{
@@ -64,8 +62,26 @@ button{
   border-style: solid;
   border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
 
-  margin-left: 55px;
-  margin-bottom: 35px;
+  margin-left: 43px;
+  margin-bottom: 60px;
+
+}
+.X{
+  display: inline-block;
+  /* text-align: center; */
+  /* align-items: flex-start; */
+  cursor: pointer;
+   /* background-color: buttonface; */
+  box-sizing: border-box;
+  /* margin: 0em; */
+  font: 400  20px serif;
+  /* padding: 1px 7px 2px;  */
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+
+  margin-left: 43px;
+  margin-bottom: 55px;
 
 }
 body{
@@ -74,4 +90,9 @@ body{
 .up{
   margin-bottom: 35px;
 
+}
+p{
+  color: aliceblue;
+  font-style: italic;
+  font-size: 25px;
 }
