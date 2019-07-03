@@ -1,7 +1,7 @@
 # TicTacToe_project1
 
 
-** access directly by clicking the link:https://assrougui.github.io/TicTacToe_project1/**
+**access directly by clicking the link:https://assrougui.github.io/TicTacToe_project1/**
 
 
 **Requirements:**
@@ -20,9 +20,9 @@
 * CSS
 * JavaScript
 * jQuery
-*https://sweetalert.js.org/guides/
-*https://daneden.github.io/animate.css/
-*aduio
+* https://sweetalert.js.org/guides/
+* https://daneden.github.io/animate.css/
+* aduio
 
 
 **User Stories**
@@ -46,7 +46,7 @@
 
 
 
-When  I started I was wondering where should I  start then I was thinking and search about it ,I faced problems but I solve it
+When Istarted I was wondering where should I start then I was thinking and search about it ,I faced problems but I solve it
 
 **List unsolved problems which would be fixed in future iterations.**
 If I had more time I would've to work on design and make choose for user to play with computer and I would've included a score tracker for either players
