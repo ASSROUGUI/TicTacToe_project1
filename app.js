@@ -67,18 +67,19 @@ if (tables[2].innerText==winner&&tables[5].innerText==winner&&tables[8].innerTex
 if (tables[0].innerText==winner&&tables[3].innerText==winner&&tables[6].innerText==winner){wins(winner,0,3,6);  }
 if (tables[3].innerText==winner&&tables[4].innerText==winner&&tables[5].innerText==winner){wins(winner,3,4,5); }
 if(tables[6].innerText==winner&&tables[7].innerText==winner&&tables[8].innerText==winner){wins(winner,6,7,8); }
-else if (countCell==9){swal(" It's a tie ");}
+else if (countCell==9){swal(" It's a tie ").then(refreshtGame);}
 }
 
 
 
-function wins(winner,a,b,c){//function wins if someone wins
-  swal(winner+' wins');
-  tables[a].classList += (" animated flipOutY infinite");
-  tables[b].classList += (" animated flipOutY infinite");
-  tables[c].classList += (" animated flipOutY infinite");
+function wins(winner,index1,index2,index3){//function wins if someone wins
+  swal(winner+' wins').then(refreshtGame);
+  tables[index1].classList += (" animated flipOutY infinite");
+  tables[index2].classList += (" animated flipOutY infinite");
+  tables[index3].classList += (" animated flipOutY infinite");
   clapSound(); // refreshtGame();
 }
+
 
 function refreshtGame(){
 window.location.reload()
@@ -96,6 +97,4 @@ function X(){
 function O(){
   restat();
   switchX_O(player_2,player_1);
-  checkTheWinner();
-
-}
+  checkTheWinner();}
